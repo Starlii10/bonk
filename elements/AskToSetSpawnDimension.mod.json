@@ -1,0 +1,88 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 337,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Would you like to set this dimension as your spawn dimension?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Would you like to set this dimension as your spawn dimension?",
+          "x": 55,
+          "y": 48
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Don't ask me again",
+          "name": "dontaskmeagain",
+          "x": 145,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Yes",
+          "onClick": {
+            "name": "SpawnDimensionSet"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Yes",
+          "x": 145,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(Your current spawn dimension is <VAR:spawndimension>.)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(Your current spawn dimension is <VAR:spawndimension>.)",
+          "x": 71,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "No",
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "No",
+          "x": 228,
+          "y": 106
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "AskToSetSpawnDimensionThisGUIIsClosed"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

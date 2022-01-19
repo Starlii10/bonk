@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:bean_sword"
+    },
+    "1": {
+      "item": "bonk:bean_sword"
+    },
+    "2": {
+      "item": "bonk:bean_sword"
+    },
+    "3": {
+      "item": "bonk:bean_sword"
+    },
+    "4": {
+      "item": "bonk:upgraded_milk"
+    },
+    "5": {
+      "item": "bonk:bean_sword"
+    },
+    "6": {
+      "item": "bonk:bean_sword"
+    },
+    "7": {
+      "item": "bonk:bean_sword"
+    },
+    "8": {
+      "item": "bonk:bean_sword"
+    }
+  },
+  "result": {
+    "item": "bonk:beany_milk",
+    "count": 1
+  }
+}

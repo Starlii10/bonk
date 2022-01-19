@@ -1,0 +1,2203 @@
+{
+  "mod_elements": [
+    {
+      "name": "Multimenu",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multimenu"
+    },
+    {
+      "name": "MultiblockUpdateTick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multiblock_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MultiDrops",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_drops"
+    },
+    {
+      "name": "MultiBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_block_recipe"
+    },
+    {
+      "name": "BeanSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_sword"
+    },
+    {
+      "name": "Bean",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean"
+    },
+    {
+      "name": "BeansCommandExecuted",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beans",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans"
+    },
+    {
+      "name": "Nyooommm",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyooommm"
+    },
+    {
+      "name": "Beany",
+      "type": "enchantment",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beany"
+    },
+    {
+      "name": "HitWithBeany",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hit_with_beany",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodCommandExecuted",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wood",
+      "type": "command",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood"
+    },
+    {
+      "name": "BEANWJIJAJNFJAN",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanwjijajnfjan"
+    },
+    {
+      "name": "Enchant",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant"
+    },
+    {
+      "name": "MilkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Milk",
+      "type": "rangeditem",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk"
+    },
+    {
+      "name": "BeanAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BeanApple",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_apple"
+    },
+    {
+      "name": "Bonk",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonk"
+    },
+    {
+      "name": "HammerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer"
+    },
+    {
+      "name": "HammerCraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_craft"
+    },
+    {
+      "name": "MilkCraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_craft"
+    },
+    {
+      "name": "XPEntityDies",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XP",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp"
+    },
+    {
+      "name": "XpsummonCommandExecuted",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpsummon_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xpsummon",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpsummon"
+    },
+    {
+      "name": "BeanierArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanier_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BeanierArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanier_armor_helmet_recipe"
+    },
+    {
+      "name": "BeanierArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanier_armor_body_recipe"
+    },
+    {
+      "name": "BeanierArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanier_armor_leggings_recipe"
+    },
+    {
+      "name": "BeanierArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanier_armor_boots_recipe"
+    },
+    {
+      "name": "NeonBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block"
+    },
+    {
+      "name": "Pizza",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza"
+    },
+    {
+      "name": "PizzaPlant",
+      "type": "plant",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_plant"
+    },
+    {
+      "name": "NyoommCommandExecuted",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyoomm_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nyoomm",
+      "type": "command",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyoomm"
+    },
+    {
+      "name": "NukeDimension",
+      "type": "dimension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_dimension",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "NukeCommandExecuted",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nuke",
+      "type": "command",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke"
+    },
+    {
+      "name": "Nuked",
+      "type": "enchantment",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuked"
+    },
+    {
+      "name": "NukedTrigger",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuked_trigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hytale",
+      "type": "enchantment",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hytale"
+    },
+    {
+      "name": "HytaleButA",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hytale_but_a",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiDie",
+      "type": "enchantment",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_die"
+    },
+    {
+      "name": "NoDyingAllowed",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_dying_allowed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MultiWater",
+      "type": "fluid",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_water",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "BonkAdvancements",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonk_advancements"
+    },
+    {
+      "name": "RecRoomFirstImpressions",
+      "type": "musicdisc",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_room_first_impressions"
+    },
+    {
+      "name": "RecRooooooooooooom",
+      "type": "enchantment",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_rooooooooooooom"
+    },
+    {
+      "name": "RecRoooooooooooooooom",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_roooooooooooooooom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecRooooooooooooooooomCommandExecuted",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_rooooooooooooooooom_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecRooooooooooooooooom",
+      "type": "command",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_rooooooooooooooooom"
+    },
+    {
+      "name": "RecBuff",
+      "type": "potioneffect",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_buff"
+    },
+    {
+      "name": "RecBuffPotion",
+      "type": "potion",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_buff_potion"
+    },
+    {
+      "name": "BrewRecBuffPot",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brew_rec_buff_pot"
+    },
+    {
+      "name": "RecBuffEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_buff_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecBuffOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_buff_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpgradedMilkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_milk_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpgradedMilk",
+      "type": "rangeditem",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_milk"
+    },
+    {
+      "name": "BonkTab",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonk_tab"
+    },
+    {
+      "name": "TotallyNotABean",
+      "type": "fuel",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totally_not_a_bean"
+    },
+    {
+      "name": "Multi",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi"
+    },
+    {
+      "name": "MultiOre",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_ore"
+    },
+    {
+      "name": "MultiOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_ore_block_recipe"
+    },
+    {
+      "name": "MultiBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_block_ore_recipe"
+    },
+    {
+      "name": "MultiOreSmelting",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_ore_smelting"
+    },
+    {
+      "name": "MultiPickaxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_pickaxe"
+    },
+    {
+      "name": "MultiAxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_axe"
+    },
+    {
+      "name": "MultiSword",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_sword"
+    },
+    {
+      "name": "MultiShovel",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_shovel"
+    },
+    {
+      "name": "MultiHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_hoe"
+    },
+    {
+      "name": "MultiPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_pickaxe_recipe"
+    },
+    {
+      "name": "MultiAxeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_axe_recipe"
+    },
+    {
+      "name": "MultiSwordRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_sword_recipe"
+    },
+    {
+      "name": "MultiShovelRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_shovel_recipe"
+    },
+    {
+      "name": "MultiHoeRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_hoe_recipe"
+    },
+    {
+      "name": "MultiArmor",
+      "type": "armor",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MultiArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_armor_helmet_recipe"
+    },
+    {
+      "name": "MultiArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_armor_body_recipe"
+    },
+    {
+      "name": "MultiArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_armor_leggings_recipe"
+    },
+    {
+      "name": "MultiArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_armor_boots_recipe"
+    },
+    {
+      "name": "Multiblock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multiblock"
+    },
+    {
+      "name": "LapisCommandExecuted",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lapis",
+      "type": "command",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis"
+    },
+    {
+      "name": "Recroom",
+      "type": "structure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recroom"
+    },
+    {
+      "name": "Amogus",
+      "type": "structure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogus"
+    },
+    {
+      "name": "UpgradeMilk",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_milk"
+    },
+    {
+      "name": "GigaMilkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_milk_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GigaMilk",
+      "type": "rangeditem",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_milk"
+    },
+    {
+      "name": "GigaMilkCraft",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_milk_craft"
+    },
+    {
+      "name": "BeanyMilk",
+      "type": "rangeditem",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beany_milk"
+    },
+    {
+      "name": "BeanyMilkCraft",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beany_milk_craft"
+    },
+    {
+      "name": "SplitterMilk",
+      "type": "rangeditem",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splitter_milk"
+    },
+    {
+      "name": "SplitterMilkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splitter_milk_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SplitterMilkCraft",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splitter_milk_craft"
+    },
+    {
+      "name": "YeeterMilk",
+      "type": "rangeditem",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeeter_milk"
+    },
+    {
+      "name": "YeeterMilkCraft",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeeter_milk_craft"
+    },
+    {
+      "name": "RichMilkWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_milk_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RichMilk",
+      "type": "rangeditem",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_milk"
+    },
+    {
+      "name": "FOOT",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foot"
+    },
+    {
+      "name": "FootCraft",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foot_craft"
+    },
+    {
+      "name": "AmbushMilkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambush_milk_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmbushMilk",
+      "type": "rangeditem",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambush_milk"
+    },
+    {
+      "name": "MilkCore",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_core"
+    },
+    {
+      "name": "MinerMilkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_milk_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinerMilk",
+      "type": "rangeditem",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_milk"
+    },
+    {
+      "name": "DimensionCommandExecuted",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dimension",
+      "type": "command",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension"
+    },
+    {
+      "name": "SummonEntity",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BonkerOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonker_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bonker",
+      "type": "livingentity",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonker"
+    },
+    {
+      "name": "ArmorantidieCommandExecuted",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armorantidie_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Armorantidie",
+      "type": "command",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armorantidie"
+    },
+    {
+      "name": "BeanSwordToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_sword_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnDimensionCommandExecuted",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_dimension_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnDimension",
+      "type": "command",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_dimension"
+    },
+    {
+      "name": "SpawnInSpawnDimension",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_in_spawn_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrashCommandExecuted",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crash",
+      "type": "command",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash"
+    },
+    {
+      "name": "OwCommandExecuted",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ow_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ow",
+      "type": "command",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ow"
+    },
+    {
+      "name": "NetherCommandExecuted",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nethercommand",
+      "type": "command",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethercommand"
+    },
+    {
+      "name": "EndCommandExecuted",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ends",
+      "type": "command",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ends"
+    },
+    {
+      "name": "BonkerBuddy",
+      "type": "livingentity",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonker_buddy"
+    },
+    {
+      "name": "AnActualMilkGunRangedItemUsed",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "an_actual_milk_gun_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnActualMilkGun",
+      "type": "rangeditem",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "an_actual_milk_gun"
+    },
+    {
+      "name": "Milkyounerd",
+      "type": "fluid",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milkyounerd",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "MilkContainerNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_container_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkContainerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_container_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkGUIButton",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_gui_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkContainerGUI",
+      "type": "gui",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_container_gui"
+    },
+    {
+      "name": "AntiBean",
+      "type": "livingentity",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_bean"
+    },
+    {
+      "name": "UltimateBean",
+      "type": "livingentity",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_bean"
+    },
+    {
+      "name": "BeanItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Transform",
+      "type": "enchantment",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transform"
+    },
+    {
+      "name": "BeanRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AskToSetSpawnDimensionThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ask_to_set_spawn_dimension_this_gui_is_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnDimensionSetToOW",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_dimension_set_to_ow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnDimensionSet",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_dimension_set",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CloseGUI",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AskToSetSpawnDimension",
+      "type": "gui",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ask_to_set_spawn_dimension"
+    },
+    {
+      "name": "DebugCommandExecuted",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debug",
+      "type": "command",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug"
+    },
+    {
+      "name": "BonkDebugCommands",
+      "type": "gamerule",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonkDebugCommands",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "GetCrashedOn",
+      "type": "achievement",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_crashed_on"
+    },
+    {
+      "name": "EnderMilk",
+      "type": "achievement",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_milk"
+    },
+    {
+      "name": "Milks",
+      "type": "tag",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milks"
+    },
+    {
+      "name": "EnderMilkTrigger",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_milk_trigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "spawndimension",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    },
+    {
+      "name": "isdamachecked",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "bonk",
+      "files": [
+        "bonk_sound_effect"
+      ],
+      "category": "block",
+      "subtitle": "BONK"
+    },
+    {
+      "name": "milk",
+      "files": [
+        "breaking_glass_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": "Milk explodes"
+    },
+    {
+      "name": "hytale",
+      "files": [
+        "untitled"
+      ],
+      "category": "neutral",
+      "subtitle": "HYYYYYTTTTAAAAALLLLLLEEEEEEEE"
+    },
+    {
+      "name": "recroom",
+      "files": [
+        "rec_room"
+      ],
+      "category": "record",
+      "subtitle": "Rec Room - First Impressions plays"
+    },
+    {
+      "name": "jojolovania",
+      "files": [
+        "jojo_megalovania"
+      ],
+      "category": "music",
+      "subtitle": "Boss theme for Bonker plays"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.bonk.ambush_milk": "Ambush Milk",
+      "entity.bonk.anti_bean": "Anti-Bean",
+      "item.bonk.multi_armor_leggings": "Multi Leggings",
+      "item.bonk.giga_milk": "Giga Milk",
+      "advancements.bonk_advancements.descr": "Bonk",
+      "gamerule.bonkDebugCommands": "Bonk Debug Commands",
+      "item.minecraft.tipped_arrow.effect.rec_buff_potion": "Arrow of Rec-buff",
+      "item.bonk.bean_spawn_egg": "Bean Spawn Egg",
+      "item.bonk.pizza": "Pizza",
+      "enchantment.bonk.nuked": "Nuke",
+      "item.bonk.rich_milk": "Rich Milk",
+      "block.bonk.pizza_plant": "Plant Pizza",
+      "item.bonk.multi_sword": "Multi Sword",
+      "item.bonk.beanier_armor_chestplate": "Beanier Chestplate",
+      "item.bonk.ultimate_bean_spawn_egg": "Ultimate Bean Spawn Egg",
+      "item.bonk.milk_core": "Milk Core",
+      "item.bonk.beany_milk": "Beany Milk",
+      "item.bonk.multi_pickaxe": "Multi Pickaxe",
+      "item.bonk.multi_armor_helmet": "Multi Helmet",
+      "item.bonk.bean_apple": "Bean Apple",
+      "block.bonk.multi_ore": "Multi Ore",
+      "enchantment.bonk.hytale": "Hytale",
+      "item.bonk.xp_spawn_egg": "XP Spawn Egg",
+      "fluid.bonk.multi_water": "Multiwater",
+      "fluid.bonk.milkyounerd": "Milk",
+      "item.bonk.bonker_buddy_spawn_egg": "Bonker Buddy Spawn Egg",
+      "item.bonk.milkyounerd_bucket": "Milk (Bonk) Bucket",
+      "item.bonk.multi": "Multi-Diamond",
+      "item.bonk.anti_bean_spawn_egg": "Anti-Bean Spawn Egg",
+      "item.bonk.milk": "Milk",
+      "item.bonk.rec_room_first_impressions.desc": "Rec Room - First Impressions",
+      "item.bonk.bonker_spawn_egg": "Bonker Spawn Egg",
+      "item.bonk.splitter_milk": "Splitter Milk",
+      "item.bonk.multi_hoe": "Multi Hoe",
+      "subtitles.recroom": "Rec Room - First Impressions plays",
+      "advancements.get_crashed_on.title": "Get Crashed On",
+      "item.bonk.multi_armor_boots": "Multi Boots",
+      "subtitles.hytale": "HYYYYYTTTTAAAAALLLLLLEEEEEEEE",
+      "item.bonk.multi_water_bucket": "Multiwater Bucket",
+      "item.bonk.beanier_armor_helmet": "Beanier Helmet",
+      "item.bonk.nuke_dimension": "Nuke",
+      "advancements.ender_milk.descr": "Beat the Ender Dragon with a Milk item. (Make sure to hold it while the dragon dies!)",
+      "item.bonk.beanier_armor_boots": "Beanier Boots",
+      "enchantment.bonk.anti_die": "Anti-Die",
+      "item.bonk.hammer": "Hammer",
+      "item.minecraft.lingering_potion.effect.rec_buff_potion": "Lingering Potion of Rec-buff",
+      "block.bonk.neon_block": "Neon Block",
+      "gamerule.bonkDebugCommands.description": "Enables / disables /debugbonk based commands.",
+      "itemGroup.tabbonk_tab": "Bonk Tab",
+      "subtitles.milk": "Milk explodes",
+      "item.bonk.multi_shovel": "Multi Shovel",
+      "entity.bonk.bonker_buddy": "Bonker Buddy",
+      "effect.bonk.rec_buff": "Rec-buff",
+      "item.minecraft.splash_potion.effect.rec_buff_potion": "Splash Potion of Rec-buff",
+      "entity.bonk.bonker": "Bonker",
+      "item.bonk.upgraded_milk": "Upgraded Milk",
+      "item.bonk.yeeter_milk": "Yeeter Milk",
+      "entity.bonk.bean": "Bean",
+      "subtitles.jojolovania": "Boss theme for Bonker plays",
+      "item.bonk.rec_room_first_impressions": "Music Disc",
+      "advancements.bonk_advancements.title": "Bonk",
+      "item.bonk.foot": "FOOT",
+      "entity.bonk.xp": "XP",
+      "item.bonk.nyooommm_spawn_egg": "Nyooommm Spawn Egg",
+      "item.bonk.multi_axe": "Multi Axe",
+      "block.bonk.milkyounerd": "Milk",
+      "subtitles.bonk": "BONK",
+      "block.bonk.multiblock": "Multiblock",
+      "enchantment.bonk.beany": "Beany",
+      "item.bonk.beanier_armor_leggings": "Beanier Leggings",
+      "block.bonk.multi_water": "Multiwater",
+      "enchantment.bonk.transform": "Transform",
+      "item.bonk.an_actual_milk_gun": "An Actual Milk Gun",
+      "entity.bonk.ultimate_bean": "Ultimate Bean",
+      "item.bonk.bean_sword": "Bean Sword",
+      "advancements.get_crashed_on.descr": "Run /crashserver. (The Bonk mod is not responsible for any damage while using this command)",
+      "enchantment.bonk.rec_rooooooooooooom": "Rec Rooooooooooooom",
+      "item.bonk.miner_milk": "Miner Milk",
+      "biome.bonk.beanwjijajnfjan": "BEAN",
+      "item.minecraft.potion.effect.rec_buff_potion": "Potion of Rec-buff",
+      "item.bonk.multi_armor_chestplate": "Multi Chestplate",
+      "advancements.ender_milk.title": "Ender Milk",
+      "entity.bonk.nyooommm": "Nyooommm"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bonk",
+    "modName": "Bonk",
+    "version": "1.0.0",
+    "description": "Adds way too many dumb features and blocks.",
+    "author": "North_G",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "uh",
+    "modElementsPackage": "net.mcreator.bonk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

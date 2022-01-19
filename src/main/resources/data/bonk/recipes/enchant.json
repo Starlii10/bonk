@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:stone"
+    },
+    "2": {
+      "item": "bonk:multiblock"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

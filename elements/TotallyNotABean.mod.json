@@ -1,0 +1,10 @@
+{
+  "_fv": 24,
+  "_type": "fuel",
+  "definition": {
+    "power": 1000000000,
+    "block": {
+      "value": "CUSTOM:Multiblock"
+    }
+  }
+}

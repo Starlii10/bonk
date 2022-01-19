@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bonk:blocks/pizza",
+    "particle": "bonk:blocks/pizza"
+  }
+}

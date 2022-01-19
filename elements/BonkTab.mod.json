@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Bonk Tab",
+    "icon": {
+      "value": "CUSTOM:Multiblock"
+    },
+    "showSearch": false
+  }
+}

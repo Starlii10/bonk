@@ -1,0 +1,25 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Ender Milk",
+    "achievementDescription": "Beat the Ender Dragon with a Milk item. (Make sure to hold it while the dragon dies!)",
+    "achievementIcon": {
+      "value": "CUSTOM:GigaMilk"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:BonkAdvancements"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"51\" y=\"51\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

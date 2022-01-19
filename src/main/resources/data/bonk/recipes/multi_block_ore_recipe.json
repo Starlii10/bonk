@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bonk:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "bonk:multi",
+    "count": 9
+  }
+}

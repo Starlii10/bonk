@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:multi"
+    },
+    "1": {
+      "item": "bonk:multi"
+    },
+    "2": {
+      "item": "bonk:multi"
+    },
+    "3": {
+      "item": "bonk:multi"
+    },
+    "4": {
+      "item": "bonk:multi"
+    },
+    "5": {
+      "item": "bonk:multi"
+    },
+    "6": {
+      "item": "bonk:multi"
+    },
+    "7": {
+      "item": "bonk:multi"
+    },
+    "8": {
+      "item": "bonk:multi"
+    }
+  },
+  "result": {
+    "item": "bonk:multiblock",
+    "count": 1
+  }
+}

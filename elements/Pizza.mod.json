@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pizza",
+    "customModelName": "Normal",
+    "name": "Pizza",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BonkTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 20,
+    "saturation": 4.8,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

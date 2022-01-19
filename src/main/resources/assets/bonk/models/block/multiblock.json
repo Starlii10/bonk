@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bonk:blocks/multiblocc",
+    "up": "bonk:blocks/multiblocc",
+    "north": "bonk:blocks/multiblocc",
+    "east": "bonk:blocks/multiblocc",
+    "south": "bonk:blocks/multiblocc",
+    "west": "bonk:blocks/multiblocc",
+    "particle": "bonk:blocks/multiblocc"
+  }
+}

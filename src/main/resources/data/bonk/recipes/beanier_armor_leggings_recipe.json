@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:multiblock"
+    },
+    "1": {
+      "item": "bonk:multiblock"
+    },
+    "2": {
+      "item": "bonk:multiblock"
+    },
+    "3": {
+      "item": "bonk:multiblock"
+    },
+    "5": {
+      "item": "bonk:multiblock"
+    },
+    "6": {
+      "item": "bonk:multiblock"
+    },
+    "8": {
+      "item": "bonk:multiblock"
+    }
+  },
+  "result": {
+    "item": "bonk:beanier_armor_leggings",
+    "count": 1
+  }
+}

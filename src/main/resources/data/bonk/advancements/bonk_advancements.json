@@ -1,0 +1,44 @@
+{
+  "display": {
+    "background": "bonk:textures/bean.png",
+    "icon": {
+      "item": "bonk:multi_water"
+    },
+    "title": {
+      "translate": "advancements.bonk_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.bonk_advancements.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "bonk_advancements": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "bonk:multiblock"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "bonk:multi_block_recipe",
+      "bonk:enchant",
+      "bonk:bonk",
+      "bonk:hammer_craft",
+      "bonk:milk_craft",
+      "bonk:beanier_armor_helmet_recipe",
+      "bonk:beanier_armor_body_recipe",
+      "bonk:beanier_armor_leggings_recipe",
+      "bonk:beanier_armor_boots_recipe"
+    ]
+  }
+}

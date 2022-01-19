@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:multiblock"
+    },
+    "2": {
+      "item": "bonk:multiblock"
+    },
+    "3": {
+      "item": "bonk:multiblock"
+    },
+    "4": {
+      "item": "bonk:multiblock"
+    },
+    "5": {
+      "item": "bonk:multiblock"
+    },
+    "6": {
+      "item": "bonk:multiblock"
+    },
+    "7": {
+      "item": "bonk:multiblock"
+    },
+    "8": {
+      "item": "bonk:multiblock"
+    }
+  },
+  "result": {
+    "item": "bonk:beanier_armor_chestplate",
+    "count": 1
+  }
+}

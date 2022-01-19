@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "ender_milk": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "bonk:bonk_advancements"
+}

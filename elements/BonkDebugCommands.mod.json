@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Bonk Debug Commands",
+    "description": "Enables / disables /debugbonk based commands.",
+    "category": "MISC",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

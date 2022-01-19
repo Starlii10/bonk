@@ -1,0 +1,75 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 315,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "This container has <fluidlevel> millibuckets of Milk.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This container has <fluidlevel> millibuckets of Milk.",
+          "x": 75,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Please add Milk to collect this container.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Please add Milk to collect this container.",
+          "x": 100,
+          "y": 63
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "OK",
+          "onClick": {
+            "name": "MilkGUIButton"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "OK",
+          "x": 194,
+          "y": 163
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(Note: 1000 millibuckets of Milk is a Milk item)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(Note: 1000 millibuckets of Milk is a Milk item)",
+          "x": 89,
+          "y": 76
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

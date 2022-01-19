@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:multi"
+    },
+    "1": {
+      "item": "bonk:multi"
+    },
+    "2": {
+      "item": "bonk:multi"
+    },
+    "3": {
+      "item": "bonk:multi"
+    },
+    "5": {
+      "item": "bonk:multi"
+    },
+    "6": {
+      "item": "bonk:multi"
+    },
+    "8": {
+      "item": "bonk:multi"
+    }
+  },
+  "result": {
+    "item": "bonk:multi_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "upgradedmilk",
+    "customModelName": "Normal",
+    "name": "Upgraded Milk",
+    "specialInfo": [
+      "A better version of the Milk that does not summon Beans and plays Rec Room music.",
+      "Yes. I'm bored. I get it."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BonkTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:milk"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Multiblock"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "UpgradedMilkProjectileHitsBlock"
+    }
+  }
+}

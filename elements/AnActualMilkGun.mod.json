@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "milkgun",
+    "customModelName": "Normal",
+    "name": "An Actual Milk Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Milk"
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:milk"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "AnActualMilkGunRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Milk"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "UpgradedMilkProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "UpgradedMilkProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "UpgradedMilkProjectileHitsBlock"
+    }
+  }
+}

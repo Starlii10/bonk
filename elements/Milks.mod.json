@@ -1,0 +1,41 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RichMilk"
+      },
+      {
+        "value": "CUSTOM:AmbushMilk"
+      },
+      {
+        "value": "CUSTOM:UpgradedMilk"
+      },
+      {
+        "value": "CUSTOM:Milk"
+      },
+      {
+        "value": "CUSTOM:MinerMilk"
+      },
+      {
+        "value": "CUSTOM:GigaMilk"
+      },
+      {
+        "value": "CUSTOM:BeanyMilk"
+      },
+      {
+        "value": "CUSTOM:SplitterMilk"
+      },
+      {
+        "value": "CUSTOM:YeeterMilk"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "milks",
+    "namespace": "mod"
+  }
+}

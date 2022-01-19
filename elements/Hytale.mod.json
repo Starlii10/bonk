@@ -1,0 +1,19 @@
+{
+  "_fv": 24,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Hytale",
+    "type": "ARMOR",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

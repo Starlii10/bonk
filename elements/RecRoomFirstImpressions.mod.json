@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "recroom",
+    "name": "Music Disc",
+    "description": "Rec Room - First Impressions",
+    "creativeTab": {
+      "value": "CUSTOM:BonkTab"
+    },
+    "music": {
+      "value": "CUSTOM:recroom"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

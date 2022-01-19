@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="bonk"
+version="1.0.0"
+displayName="Bonk"
+credits="uh"
+displayURL="https://mcreator.net"
+authors="North_G"
+description='''
+Adds way too many dumb features and blocks.
+'''
+
+[[dependencies.bonk]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RichMilk"
+      },
+      {
+        "value": "CUSTOM:AmbushMilk"
+      },
+      {
+        "value": "CUSTOM:BeanyMilk"
+      },
+      {
+        "value": "CUSTOM:Milk"
+      },
+      {
+        "value": "CUSTOM:MilkCore"
+      },
+      {
+        "value": "CUSTOM:UpgradedMilk"
+      },
+      {
+        "value": "CUSTOM:MinerMilk"
+      },
+      {
+        "value": "CUSTOM:SplitterMilk"
+      },
+      {
+        "value": "CUSTOM:YeeterMilk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigaMilk"
+    },
+    "name": "giga_milk_craft",
+    "namespace": "mod"
+  }
+}

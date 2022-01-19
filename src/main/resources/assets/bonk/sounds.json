@@ -1,0 +1,52 @@
+{
+  "bonk": {
+    "category": "block",
+    "subtitle": "subtitles.bonk",
+    "sounds": [
+      {
+        "name": "bonk:bonk_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "milk": {
+    "category": "neutral",
+    "subtitle": "subtitles.milk",
+    "sounds": [
+      {
+        "name": "bonk:breaking_glass_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "hytale": {
+    "category": "neutral",
+    "subtitle": "subtitles.hytale",
+    "sounds": [
+      {
+        "name": "bonk:untitled",
+        "stream": false
+      }
+    ]
+  },
+  "recroom": {
+    "category": "record",
+    "subtitle": "subtitles.recroom",
+    "sounds": [
+      {
+        "name": "bonk:rec_room",
+        "stream": true
+      }
+    ]
+  },
+  "jojolovania": {
+    "category": "music",
+    "subtitle": "subtitles.jojolovania",
+    "sounds": [
+      {
+        "name": "bonk:jojo_megalovania",
+        "stream": true
+      }
+    ]
+  }
+}

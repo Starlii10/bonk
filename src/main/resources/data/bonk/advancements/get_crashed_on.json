@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.get_crashed_on.title"
+    },
+    "description": {
+      "translate": "advancements.get_crashed_on.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_crashed_on": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "bonk:bonk_advancements"
+}

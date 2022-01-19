@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Bonk",
+    "achievementDescription": "Bonk",
+    "achievementIcon": {
+      "value": "CUSTOM:MultiWater"
+    },
+    "background": "bean.png",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "MultiBlockRecipe",
+      "Enchant",
+      "Bonk",
+      "HammerCraft",
+      "MilkCraft",
+      "BeanierArmorHelmetRecipe",
+      "BeanierArmorBodyRecipe",
+      "BeanierArmorLeggingsRecipe",
+      "BeanierArmorBootsRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"95\" y=\"29\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Multiblock</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

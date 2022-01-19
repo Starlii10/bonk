@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "beanapple",
+    "customModelName": "Normal",
+    "name": "Bean Apple",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Just like Red Bull, it gives you wings."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BonkTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "BeanAppleFoodEaten"
+    }
+  }
+}

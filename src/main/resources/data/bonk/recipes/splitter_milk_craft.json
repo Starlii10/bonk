@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "bonk:upgraded_milk"
+    },
+    "3": {
+      "item": "bonk:upgraded_milk"
+    },
+    "4": {
+      "item": "bonk:upgraded_milk"
+    },
+    "5": {
+      "item": "bonk:upgraded_milk"
+    },
+    "7": {
+      "item": "bonk:upgraded_milk"
+    }
+  },
+  "result": {
+    "item": "bonk:splitter_milk",
+    "count": 1
+  }
+}

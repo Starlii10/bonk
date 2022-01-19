@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:sand"
+    },
+    "2": {
+      "item": "bonk:bean_sword"
+    }
+  },
+  "result": {
+    "item": "bonk:hammer",
+    "count": 1
+  }
+}

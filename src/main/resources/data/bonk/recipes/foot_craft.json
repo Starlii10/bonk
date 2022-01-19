@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "1": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "2": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "3": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "4": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "5": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "6": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "7": {
+      "item": "bonk:beanier_armor_chestplate"
+    },
+    "8": {
+      "item": "bonk:beanier_armor_chestplate"
+    }
+  },
+  "result": {
+    "item": "bonk:foot",
+    "count": 1
+  }
+}

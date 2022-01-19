@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:rich_milk"
+    },
+    "1": {
+      "item": "bonk:ambush_milk"
+    },
+    "2": {
+      "item": "bonk:beany_milk"
+    },
+    "3": {
+      "item": "bonk:milk"
+    },
+    "4": {
+      "item": "bonk:milk_core"
+    },
+    "5": {
+      "item": "bonk:upgraded_milk"
+    },
+    "6": {
+      "item": "bonk:miner_milk"
+    },
+    "7": {
+      "item": "bonk:splitter_milk"
+    },
+    "8": {
+      "item": "bonk:yeeter_milk"
+    }
+  },
+  "result": {
+    "item": "bonk:giga_milk",
+    "count": 1
+  }
+}

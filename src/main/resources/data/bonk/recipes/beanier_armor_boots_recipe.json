@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bonk:multiblock"
+    },
+    "2": {
+      "item": "bonk:multiblock"
+    },
+    "3": {
+      "item": "bonk:multiblock"
+    },
+    "5": {
+      "item": "bonk:multiblock"
+    }
+  },
+  "result": {
+    "item": "bonk:beanier_armor_boots",
+    "count": 1
+  }
+}

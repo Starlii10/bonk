@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "gigamilk",
+    "customModelName": "Normal",
+    "name": "Giga Milk",
+    "specialInfo": [
+      "Explodes on impact, spawns all milk types (other than itself), and",
+      "gives anything near it Rec-buff.",
+      "&aWARNING: May crash your game if spammed."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 100000,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:MultiWater"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "GigaMilkProjectileHitsBlock"
+    }
+  }
+}

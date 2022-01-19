@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Rec-buff",
+    "icon": "bean.png",
+    "color": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "RecBuffEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "RecBuffOnEffectActiveTick"
+    }
+  }
+}
