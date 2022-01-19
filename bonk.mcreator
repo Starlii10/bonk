@@ -2031,6 +2031,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "GigaWoods",
+      "type": "biome",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_god_what_have_i_done"
     }
   ],
   "variable_elements": [
@@ -2160,6 +2168,7 @@
       "subtitles.bonk": "BONK",
       "block.bonk.multiblock": "Multiblock",
       "enchantment.bonk.beany": "Beany",
+      "biome.bonk.oh_god_what_have_i_done": "oh no what have i done",
       "item.bonk.beanier_armor_leggings": "Beanier Leggings",
       "block.bonk.multi_water": "Multiwater",
       "enchantment.bonk.transform": "Transform",
@@ -2186,7 +2195,7 @@
     "version": "1.0.0",
     "description": "Adds way too many dumb features and blocks.",
     "author": "North_G",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "none",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

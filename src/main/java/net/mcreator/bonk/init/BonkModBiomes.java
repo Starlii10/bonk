@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.bonk.world.biome.GigaWoodsBiome;
 import net.mcreator.bonk.world.biome.BEANWJIJAJNFJANBiome;
 import net.mcreator.bonk.BonkMod;
 
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 public class BonkModBiomes {
 	private static final List<Biome> REGISTRY = new ArrayList<>();
 	public static Biome BEANWJIJAJNFJAN = register("beanwjijajnfjan", BEANWJIJAJNFJANBiome.createBiome());
+	public static Biome OH_GOD_WHAT_HAVE_I_DONE = register("oh_god_what_have_i_done", GigaWoodsBiome.createBiome());
 
 	private static Biome register(String registryname, Biome biome) {
 		REGISTRY.add(biome.setRegistryName(new ResourceLocation(BonkMod.MODID, registryname)));
@@ -37,6 +39,7 @@ public class BonkModBiomes {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			BEANWJIJAJNFJANBiome.init();
+			GigaWoodsBiome.init();
 		});
 	}
 }
