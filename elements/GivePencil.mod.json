@@ -1,0 +1,9 @@
+{
+  "_fv": 24,
+  "_type": "function",
+  "definition": {
+    "code": "# Code written by WiseDragoon5374, NOT MCreator\ngive @s bonk:pencil",
+    "name": "give_pencil",
+    "namespace": "mod"
+  }
+}

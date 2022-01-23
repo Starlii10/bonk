@@ -2039,6 +2039,126 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "oh_god_what_have_i_done"
+    },
+    {
+      "name": "FOOTLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foot_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetDisplayName",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_display_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NameChangerGUI",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_changer_gui"
+    },
+    {
+      "name": "NameChanger",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_changer"
+    },
+    {
+      "name": "SetItemName",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_item_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NameChangerGUIThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_changer_gui_this_gui_is_opened",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pencil",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencil"
+    },
+    {
+      "name": "NameChangerCraft",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_changer_craft"
+    },
+    {
+      "name": "GivePencil",
+      "type": "function",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_pencil"
     }
   ],
   "variable_elements": [
@@ -2053,6 +2173,12 @@
       "type": "string",
       "scope": "map",
       "value": "\"\""
+    },
+    {
+      "name": "synceditem",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
     }
   ],
   "sound_elements": [
@@ -2095,6 +2221,14 @@
       ],
       "category": "music",
       "subtitle": "Boss theme for Bonker plays"
+    },
+    {
+      "name": "foot",
+      "files": [
+        "foot"
+      ],
+      "category": "player",
+      "subtitle": "F   O   O   T"
     }
   ],
   "language_map": {
@@ -2103,7 +2237,7 @@
       "entity.bonk.anti_bean": "Anti-Bean",
       "item.bonk.multi_armor_leggings": "Multi Leggings",
       "item.bonk.giga_milk": "Giga Milk",
-      "advancements.bonk_advancements.descr": "Bonk",
+      "advancements.bonk_advancements.descr": "Achievements for the Bonk Mod.",
       "gamerule.bonkDebugCommands": "Bonk Debug Commands",
       "item.minecraft.tipped_arrow.effect.rec_buff_potion": "Arrow of Rec-buff",
       "item.bonk.bean_spawn_egg": "Bean Spawn Egg",
@@ -2124,6 +2258,7 @@
       "item.bonk.xp_spawn_egg": "XP Spawn Egg",
       "fluid.bonk.multi_water": "Multiwater",
       "fluid.bonk.milkyounerd": "Milk",
+      "subtitles.foot": "F   O   O   T",
       "item.bonk.bonker_buddy_spawn_egg": "Bonker Buddy Spawn Egg",
       "item.bonk.milkyounerd_bucket": "Milk (Bonk) Bucket",
       "item.bonk.multi": "Multi-Diamond",
@@ -2174,8 +2309,10 @@
       "enchantment.bonk.transform": "Transform",
       "item.bonk.an_actual_milk_gun": "An Actual Milk Gun",
       "entity.bonk.ultimate_bean": "Ultimate Bean",
+      "item.bonk.pencil": "Pencil",
       "item.bonk.bean_sword": "Bean Sword",
       "advancements.get_crashed_on.descr": "Run /crashserver. (The Bonk mod is not responsible for any damage while using this command)",
+      "block.bonk.name_changer": "Name Changer",
       "enchantment.bonk.rec_rooooooooooooom": "Rec Rooooooooooooom",
       "item.bonk.miner_milk": "Miner Milk",
       "biome.bonk.beanwjijajnfjan": "BEAN",
@@ -2195,7 +2332,7 @@
     "version": "1.0.0",
     "description": "Adds way too many dumb features and blocks.",
     "author": "North_G",
-    "websiteURL": "none",
+    "websiteURL": "https://github.com/WiseDragoon5374/bonk",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

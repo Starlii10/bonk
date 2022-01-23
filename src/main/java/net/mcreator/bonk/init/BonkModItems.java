@@ -20,6 +20,7 @@ import net.mcreator.bonk.item.SplitterMilkItem;
 import net.mcreator.bonk.item.RichMilkItem;
 import net.mcreator.bonk.item.RecRoomFirstImpressionsItem;
 import net.mcreator.bonk.item.PizzaItem;
+import net.mcreator.bonk.item.PencilItem;
 import net.mcreator.bonk.item.MultiWaterItem;
 import net.mcreator.bonk.item.MultiSwordItem;
 import net.mcreator.bonk.item.MultiShovelItem;
@@ -105,6 +106,8 @@ public class BonkModItems {
 	public static final Item ULTIMATE_BEAN = register(
 			new SpawnEggItem(BonkModEntities.ULTIMATE_BEAN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("ultimate_bean_spawn_egg"));
+	public static final Item NAME_CHANGER = register(BonkModBlocks.NAME_CHANGER, BonkModTabs.TAB_BONK_TAB);
+	public static final Item PENCIL = register(new PencilItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

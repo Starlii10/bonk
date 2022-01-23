@@ -8,15 +8,15 @@
       "value": "CUSTOM:GigaMilk"
     },
     "background": "Default",
-    "disableDisplay": true,
+    "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
-    "rewardFunction": "No function",
-    "rewardXP": 0,
-    "achievementType": "task",
+    "rewardFunction": "GivePencil",
+    "rewardXP": 30,
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:BonkAdvancements"
     },

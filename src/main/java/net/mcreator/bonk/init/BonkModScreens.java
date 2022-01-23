@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.bonk.client.gui.NameChangerGUIScreen;
 import net.mcreator.bonk.client.gui.MultimenuScreen;
 import net.mcreator.bonk.client.gui.MilkContainerGUIScreen;
 import net.mcreator.bonk.client.gui.AskToSetSpawnDimensionScreen;
@@ -23,6 +24,7 @@ public class BonkModScreens {
 			MenuScreens.register(BonkModMenus.MULTIMENU, MultimenuScreen::new);
 			MenuScreens.register(BonkModMenus.MILK_CONTAINER_GUI, MilkContainerGUIScreen::new);
 			MenuScreens.register(BonkModMenus.ASK_TO_SET_SPAWN_DIMENSION, AskToSetSpawnDimensionScreen::new);
+			MenuScreens.register(BonkModMenus.NAME_CHANGER_GUI, NameChangerGUIScreen::new);
 		});
 	}
 }

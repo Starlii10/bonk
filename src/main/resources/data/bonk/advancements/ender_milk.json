@@ -1,8 +1,27 @@
 {
+  "display": {
+    "icon": {
+      "item": "bonk:giga_milk"
+    },
+    "title": {
+      "translate": "advancements.ender_milk.title"
+    },
+    "description": {
+      "translate": "advancements.ender_milk.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "criteria": {
     "ender_milk": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "experience": 30,
+    "function": "bonk:give_pencil"
   },
   "parent": "bonk:bonk_advancements"
 }

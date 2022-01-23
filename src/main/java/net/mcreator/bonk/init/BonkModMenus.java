@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.mcreator.bonk.world.inventory.NameChangerGUIMenu;
 import net.mcreator.bonk.world.inventory.MultimenuMenu;
 import net.mcreator.bonk.world.inventory.MilkContainerGUIMenu;
 import net.mcreator.bonk.world.inventory.AskToSetSpawnDimensionMenu;
@@ -27,6 +28,8 @@ public class BonkModMenus {
 			(id, inv, extraData) -> new MilkContainerGUIMenu(id, inv, extraData));
 	public static final MenuType<AskToSetSpawnDimensionMenu> ASK_TO_SET_SPAWN_DIMENSION = register("ask_to_set_spawn_dimension",
 			(id, inv, extraData) -> new AskToSetSpawnDimensionMenu(id, inv, extraData));
+	public static final MenuType<NameChangerGUIMenu> NAME_CHANGER_GUI = register("name_changer_gui",
+			(id, inv, extraData) -> new NameChangerGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

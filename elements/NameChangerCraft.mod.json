@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NAME_TAG"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.NAME_TAG"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:Pencil"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.NAME_TAG"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.NAME_TAG"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NameChanger"
+    },
+    "name": "name_changer_craft",
+    "namespace": "mod"
+  }
+}

@@ -38,7 +38,7 @@ public class GigaMilkItem extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("Explodes on impact, spawns all milk types (other than itself), and"));
 		list.add(new TextComponent("gives anything near it Rec-buff."));
-		list.add(new TextComponent("&aWARNING: May crash your game if spammed."));
+		list.add(new TextComponent("WARNING: May crash your game if spammed."));
 	}
 
 	@Override

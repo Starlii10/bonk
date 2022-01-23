@@ -48,5 +48,15 @@
         "stream": true
       }
     ]
+  },
+  "foot": {
+    "category": "player",
+    "subtitle": "subtitles.foot",
+    "sounds": [
+      {
+        "name": "bonk:foot",
+        "stream": false
+      }
+    ]
   }
 }

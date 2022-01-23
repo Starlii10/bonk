@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.bonk.block.PizzaPlantBlock;
 import net.mcreator.bonk.block.NeonBlockBlock;
+import net.mcreator.bonk.block.NameChangerBlock;
 import net.mcreator.bonk.block.MultiblockBlock;
 import net.mcreator.bonk.block.MultiWaterBlock;
 import net.mcreator.bonk.block.MultiOreBlock;
@@ -31,6 +32,7 @@ public class BonkModBlocks {
 	public static final Block MULTI_ORE = register(new MultiOreBlock());
 	public static final Block MULTIBLOCK = register(new MultiblockBlock());
 	public static final Block MILKYOUNERD = register(new MilkyounerdBlock());
+	public static final Block NAME_CHANGER = register(new NameChangerBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

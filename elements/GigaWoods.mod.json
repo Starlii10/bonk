@@ -32,12 +32,12 @@
       "value": "No parent"
     },
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
+    "temperature": 0.6,
     "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "heightVariation": 0.0,
     "biomeType": "WARM",
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 50,
     "biomeDictionaryTypes": [
       "FOREST"
     ],
@@ -51,9 +51,9 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "treesPerChunk": 13,
-    "vanillaTreeType": "Big trees",
+    "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 23,
+    "minHeight": 9,
     "treeStem": {
       "value": "Blocks.LOG"
     },
@@ -87,10 +87,37 @@
     "spawnEndCity": true,
     "spawnRuinedPortal": "JUNGLE",
     "defaultFeatures": [
+      "AmethystGeodes",
+      "Bamboo",
+      "BerryBushes",
       "Caves",
-      "Ores",
+      "DeadBushes",
+      "DesertFeatures",
+      "Dripstone",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "Fossils",
       "FrozenTopLayer",
-      "JungleTreeForest"
+      "Icebergs",
+      "InfestedStone",
+      "JungleGrass",
+      "JungleTreeForest",
+      "Lakes",
+      "LushCavesDecoration",
+      "MonsterRooms",
+      "OceanCaves",
+      "Ores",
+      "PlainsTallGrass",
+      "ReedsAndPumpkins",
+      "SavannaTrees",
+      "SedimentDisks",
+      "SwampClayDisks",
+      "SwampVegetation",
+      "TaigaGrassAndMushrooms",
+      "TaigaGrassDeadBushesMushrooms",
+      "TaigaLargeFerns",
+      "TaigaRocks",
+      "TallSeagrassLush"
     ],
     "spawnEntries": []
   }

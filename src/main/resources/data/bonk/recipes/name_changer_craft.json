@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:name_tag"
+    },
+    "1": {
+      "item": "minecraft:paper"
+    },
+    "2": {
+      "item": "minecraft:name_tag"
+    },
+    "3": {
+      "item": "minecraft:paper"
+    },
+    "4": {
+      "item": "bonk:pencil"
+    },
+    "5": {
+      "item": "minecraft:paper"
+    },
+    "6": {
+      "item": "minecraft:name_tag"
+    },
+    "7": {
+      "item": "minecraft:paper"
+    },
+    "8": {
+      "item": "minecraft:name_tag"
+    }
+  },
+  "result": {
+    "item": "bonk:name_changer",
+    "count": 1
+  }
+}

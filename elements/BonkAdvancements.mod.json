@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Bonk",
-    "achievementDescription": "Bonk",
+    "achievementDescription": "Achievements for the Bonk Mod.",
     "achievementIcon": {
       "value": "CUSTOM:MultiWater"
     },
@@ -11,7 +11,7 @@
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": false,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
       "MultiBlockRecipe",

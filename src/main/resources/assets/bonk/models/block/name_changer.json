@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bonk:blocks/namechanger",
+    "up": "bonk:blocks/namechanger",
+    "north": "bonk:blocks/namechanger",
+    "east": "bonk:blocks/namechanger",
+    "south": "bonk:blocks/namechanger",
+    "west": "bonk:blocks/namechanger",
+    "particle": "bonk:blocks/namechanger"
+  }
+}

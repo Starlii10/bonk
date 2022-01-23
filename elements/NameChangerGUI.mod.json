@@ -1,0 +1,101 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 264,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Default Name",
+          "width": 120,
+          "height": 20,
+          "name": "DisplayName",
+          "x": 156,
+          "y": 93
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Change your display name!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Change your display name!",
+          "x": 150,
+          "y": 49
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Change Player Name",
+          "width": 119,
+          "height": 20,
+          "name": "Change Player Name",
+          "x": 157,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Change Item Name",
+          "onClick": {
+            "name": "SetItemName"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Change Item Name",
+          "x": 163,
+          "y": 149
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Note: Item uses the item in your main hand.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Note: Item uses the item in your main hand.",
+          "x": 102,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cancel",
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Cancel",
+          "x": 187,
+          "y": 173
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "NameChangerGUIThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

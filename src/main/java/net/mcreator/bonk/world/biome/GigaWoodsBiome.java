@@ -9,9 +9,9 @@ import net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.level.levelgen.surfacebuilders.ConfiguredSurfaceBuilder;
 import net.minecraft.world.level.levelgen.placement.FrequencyWithExtraChanceDecoratorConfiguration;
 import net.minecraft.world.level.levelgen.placement.FeatureDecorator;
-import net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPlacer;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider;
-import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.NoiseDependantDecoratorConfiguration;
@@ -80,9 +80,9 @@ public class GigaWoodsBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				register("trees", Feature.TREE
 						.configured((new TreeConfiguration.TreeConfigurationBuilder(new SimpleStateProvider(Blocks.OAK_LOG.defaultBlockState()),
-								new MegaJungleTrunkPlacer(23, 2, 19), new SimpleStateProvider(Blocks.OAK_LEAVES.defaultBlockState()),
+								new StraightTrunkPlacer(9, 2, 0), new SimpleStateProvider(Blocks.OAK_LEAVES.defaultBlockState()),
 								new SimpleStateProvider(Blocks.OAK_SAPLING.defaultBlockState()),
-								new MegaJungleFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 2), new TwoLayersFeatureSize(1, 1, 2)))
+								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)))
 										.decorators(ImmutableList.of(GigaWoodsLeaveDecorator.INSTANCE, GigaWoodsTrunkDecorator.INSTANCE,
 												GigaWoodsFruitDecorator.INSTANCE))
 										.build())
@@ -95,13 +95,40 @@ public class GigaWoodsBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				register("flower", Feature.FLOWER.configured(Features.Configs.DEFAULT_FLOWER_CONFIG).decorated(Features.Decorators.ADD_32)
 						.decorated(Features.Decorators.HEIGHTMAP_SQUARE).count(8)));
+		BiomeDefaultFeatures.addDefaultCrystalFormations(biomeGenerationSettings);
+		BiomeDefaultFeatures.addBambooVegetation(biomeGenerationSettings);
+		BiomeDefaultFeatures.addBerryBushes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultCarvers(biomeGenerationSettings);
-		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDesertVegetation(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDesertExtraDecoration(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDripstone(biomeGenerationSettings);
+		BiomeDefaultFeatures.addExtraEmeralds(biomeGenerationSettings);
+		BiomeDefaultFeatures.addExtraGold(biomeGenerationSettings);
+		BiomeDefaultFeatures.addFossilDecoration(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
+		BiomeDefaultFeatures.addIcebergs(biomeGenerationSettings);
+		BiomeDefaultFeatures.addInfestedStone(biomeGenerationSettings);
+		BiomeDefaultFeatures.addJungleGrass(biomeGenerationSettings);
 		BiomeDefaultFeatures.addJungleTrees(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultLakes(biomeGenerationSettings);
+		BiomeDefaultFeatures.addLushCavesVegetationFeatures(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultMonsterRoom(biomeGenerationSettings);
+		BiomeDefaultFeatures.addOceanCarvers(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
+		BiomeDefaultFeatures.addSavannaGrass(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultExtraVegetation(biomeGenerationSettings);
+		BiomeDefaultFeatures.addSavannaTrees(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultSoftDisks(biomeGenerationSettings);
+		BiomeDefaultFeatures.addSwampClayDisk(biomeGenerationSettings);
+		BiomeDefaultFeatures.addSwampVegetation(biomeGenerationSettings);
+		BiomeDefaultFeatures.addTaigaGrass(biomeGenerationSettings);
+		BiomeDefaultFeatures.addGiantTaigaVegetation(biomeGenerationSettings);
+		BiomeDefaultFeatures.addFerns(biomeGenerationSettings);
+		BiomeDefaultFeatures.addMossyStoneBlock(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultSeagrass(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder().setPlayerCanSpawn();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.JUNGLE).depth(0.1f).scale(0.2f)
-				.temperature(0.5f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.JUNGLE).depth(0.1f).scale(0f)
+				.temperature(0.6f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
 				.generationSettings(biomeGenerationSettings.build()).build();
 	}
 
@@ -113,7 +140,7 @@ public class GigaWoodsBiome {
 		BiomeDictionary.addTypes(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(BonkModBiomes.OH_GOD_WHAT_HAVE_I_DONE)),
 				BiomeDictionary.Type.FOREST);
 		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(
-				ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(BonkModBiomes.OH_GOD_WHAT_HAVE_I_DONE)), 10));
+				ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(BonkModBiomes.OH_GOD_WHAT_HAVE_I_DONE)), 50));
 	}
 
 	private static final Map<ResourceLocation, ConfiguredFeature<?, ?>> CONFIGURED_FEATURES = new HashMap<>();

@@ -11,6 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.bonk.block.entity.NameChangerBlockEntity;
 import net.mcreator.bonk.block.entity.MultiblockBlockEntity;
 
 import java.util.List;
@@ -20,6 +21,7 @@ import java.util.ArrayList;
 public class BonkModBlockEntities {
 	private static final List<BlockEntityType<?>> REGISTRY = new ArrayList<>();
 	public static final BlockEntityType<?> MULTIBLOCK = register("bonk:multiblock", BonkModBlocks.MULTIBLOCK, MultiblockBlockEntity::new);
+	public static final BlockEntityType<?> NAME_CHANGER = register("bonk:name_changer", BonkModBlocks.NAME_CHANGER, NameChangerBlockEntity::new);
 
 	private static BlockEntityType<?> register(String registryname, Block block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		BlockEntityType<?> blockEntityType = BlockEntityType.Builder.of(supplier, block).build(null).setRegistryName(registryname);

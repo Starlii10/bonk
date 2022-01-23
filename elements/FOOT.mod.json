@@ -6,7 +6,9 @@
     "texture": "foot",
     "customModelName": "Normal",
     "name": "FOOT",
-    "specialInfo": [],
+    "specialInfo": [
+      "Made by my cousin Landon."
+    ],
     "creativeTab": {
       "value": "TOOLS"
     },
@@ -22,6 +24,9 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FOOTLivingEntityIsHitWithTool"
+    }
   }
 }

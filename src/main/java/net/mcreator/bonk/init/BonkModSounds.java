@@ -23,6 +23,7 @@ public class BonkModSounds {
 		REGISTRY.put(new ResourceLocation("bonk", "hytale"), new SoundEvent(new ResourceLocation("bonk", "hytale")));
 		REGISTRY.put(new ResourceLocation("bonk", "recroom"), new SoundEvent(new ResourceLocation("bonk", "recroom")));
 		REGISTRY.put(new ResourceLocation("bonk", "jojolovania"), new SoundEvent(new ResourceLocation("bonk", "jojolovania")));
+		REGISTRY.put(new ResourceLocation("bonk", "foot"), new SoundEvent(new ResourceLocation("bonk", "foot")));
 	}
 
 	@SubscribeEvent

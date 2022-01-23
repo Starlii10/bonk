@@ -9,7 +9,7 @@
     "specialInfo": [
       "Explodes on impact, spawns all milk types (other than itself), and",
       "gives anything near it Rec-buff.",
-      "&aWARNING: May crash your game if spammed."
+      "WARNING: May crash your game if spammed."
     ],
     "creativeTab": {
       "value": "COMBAT"
