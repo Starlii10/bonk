@@ -18,6 +18,6 @@ public class AntiBeanRenderer extends HumanoidMobRenderer<AntiBeanEntity, Humano
 
 	@Override
 	public ResourceLocation getTextureLocation(AntiBeanEntity entity) {
-		return new ResourceLocation("bonk:textures/alex.png");
+		return new ResourceLocation("bonk:textures/bonkskin.png");
 	}
 }

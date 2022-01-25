@@ -18,6 +18,6 @@ public class BonkerBuddyRenderer extends HumanoidMobRenderer<BonkerBuddyEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(BonkerBuddyEntity entity) {
-		return new ResourceLocation("bonk:textures/alex.png");
+		return new ResourceLocation("bonk:textures/bonkskin.png");
 	}
 }

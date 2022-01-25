@@ -18,6 +18,6 @@ public class UltimateBeanRenderer extends HumanoidMobRenderer<UltimateBeanEntity
 
 	@Override
 	public ResourceLocation getTextureLocation(UltimateBeanEntity entity) {
-		return new ResourceLocation("bonk:textures/alex.png");
+		return new ResourceLocation("bonk:textures/bonkskin.png");
 	}
 }

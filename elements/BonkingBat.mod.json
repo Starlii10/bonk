@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bonkingbat",
+    "customModelName": "Normal",
+    "name": "Bonking Bat",
+    "specialInfo": [
+      "Had to add it because of the original bonk meme."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.0,
+    "enchantability": 128000,
+    "damageVsEntity": 100010.3,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "HammerLivingEntityIsHitWithTool"
+    }
+  }
+}

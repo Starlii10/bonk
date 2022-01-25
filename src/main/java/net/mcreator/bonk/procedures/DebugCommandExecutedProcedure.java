@@ -14,6 +14,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.bonk.world.inventory.NameChangerGUIMenu;
 import net.mcreator.bonk.world.inventory.MultimenuMenu;
 import net.mcreator.bonk.world.inventory.MilkContainerGUIMenu;
 import net.mcreator.bonk.world.inventory.AskToSetSpawnDimensionMenu;
@@ -140,6 +141,23 @@ public class DebugCommandExecutedProcedure {
 								@Override
 								public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
 									return new MilkContainerGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+								}
+							}, _bpos);
+						}
+					}
+				} else if ((cmdparams.containsKey("1") ? cmdparams.get("1").toString() : "").equals("NameChangerGUI")) {
+					{
+						if (entity instanceof ServerPlayer _ent) {
+							BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);
+							NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
+								@Override
+								public Component getDisplayName() {
+									return new TextComponent("NameChangerGUI");
+								}
+
+								@Override
+								public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+									return new NameChangerGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 								}
 							}, _bpos);
 						}

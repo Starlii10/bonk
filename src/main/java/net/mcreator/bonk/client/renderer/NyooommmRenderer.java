@@ -18,6 +18,6 @@ public class NyooommmRenderer extends HumanoidMobRenderer<NyooommmEntity, Humano
 
 	@Override
 	public ResourceLocation getTextureLocation(NyooommmEntity entity) {
-		return new ResourceLocation("bonk:textures/alex.png");
+		return new ResourceLocation("bonk:textures/bonkskin.png");
 	}
 }

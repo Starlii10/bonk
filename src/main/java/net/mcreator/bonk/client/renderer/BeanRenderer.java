@@ -18,6 +18,6 @@ public class BeanRenderer extends HumanoidMobRenderer<BeanEntity, HumanoidModel<
 
 	@Override
 	public ResourceLocation getTextureLocation(BeanEntity entity) {
-		return new ResourceLocation("bonk:textures/alex.png");
+		return new ResourceLocation("bonk:textures/bonkskin.png");
 	}
 }

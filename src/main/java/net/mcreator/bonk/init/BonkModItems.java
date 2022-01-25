@@ -38,6 +38,7 @@ import net.mcreator.bonk.item.LaserGunItem;
 import net.mcreator.bonk.item.HammerItem;
 import net.mcreator.bonk.item.GigaMilkItem;
 import net.mcreator.bonk.item.FOOTItem;
+import net.mcreator.bonk.item.BonkingBatItem;
 import net.mcreator.bonk.item.BeanyMilkItem;
 import net.mcreator.bonk.item.BeanierArmorItem;
 import net.mcreator.bonk.item.BeanSwordItem;
@@ -115,6 +116,7 @@ public class BonkModItems {
 	public static final Item UFO = register(
 			new SpawnEggItem(BonkModEntities.UFO, -16724737, -3394561, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("ufo_spawn_egg"));
+	public static final Item BONKING_BAT = register(new BonkingBatItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
