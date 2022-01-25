@@ -18,11 +18,13 @@ import net.mcreator.bonk.entity.YeeterMilkEntity;
 import net.mcreator.bonk.entity.XPEntity;
 import net.mcreator.bonk.entity.UpgradedMilkEntity;
 import net.mcreator.bonk.entity.UltimateBeanEntity;
+import net.mcreator.bonk.entity.UFOEntity;
 import net.mcreator.bonk.entity.SplitterMilkEntity;
 import net.mcreator.bonk.entity.RichMilkEntity;
 import net.mcreator.bonk.entity.NyooommmEntity;
 import net.mcreator.bonk.entity.MinerMilkEntity;
 import net.mcreator.bonk.entity.MilkEntity;
+import net.mcreator.bonk.entity.LaserGunEntity;
 import net.mcreator.bonk.entity.GigaMilkEntity;
 import net.mcreator.bonk.entity.BonkerEntity;
 import net.mcreator.bonk.entity.BonkerBuddyEntity;
@@ -89,6 +91,12 @@ public class BonkModEntities {
 	public static final EntityType<UltimateBeanEntity> ULTIMATE_BEAN = register("ultimate_bean",
 			EntityType.Builder.<UltimateBeanEntity>of(UltimateBeanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UltimateBeanEntity::new).sized(0.6f, 1.8f));
+	public static final EntityType<LaserGunEntity> LASER_GUN = register("entitybulletlaser_gun",
+			EntityType.Builder.<LaserGunEntity>of(LaserGunEntity::new, MobCategory.MISC).setCustomClientFactory(LaserGunEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<UFOEntity> UFO = register("ufo",
+			EntityType.Builder.<UFOEntity>of(UFOEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(UFOEntity::new).sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -111,6 +119,7 @@ public class BonkModEntities {
 			BonkerBuddyEntity.init();
 			AntiBeanEntity.init();
 			UltimateBeanEntity.init();
+			UFOEntity.init();
 		});
 	}
 
@@ -123,5 +132,6 @@ public class BonkModEntities {
 		event.put(BONKER_BUDDY, BonkerBuddyEntity.createAttributes().build());
 		event.put(ANTI_BEAN, AntiBeanEntity.createAttributes().build());
 		event.put(ULTIMATE_BEAN, UltimateBeanEntity.createAttributes().build());
+		event.put(UFO, UFOEntity.createAttributes().build());
 	}
 }

@@ -58,5 +58,15 @@
         "stream": false
       }
     ]
+  },
+  "lasershoot": {
+    "category": "player",
+    "subtitle": "subtitles.lasershoot",
+    "sounds": [
+      {
+        "name": "bonk:lasershoot",
+        "stream": false
+      }
+    ]
   }
 }

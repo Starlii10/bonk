@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "lasergun",
+    "customModelName": "Normal",
+    "name": "Laser Gun",
+    "specialInfo": [
+      "Pew pew!"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Laser"
+    },
+    "shootConstantly": false,
+    "usageCount": 1024,
+    "actionSound": {
+      "value": "CUSTOM:lasershoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Laser"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

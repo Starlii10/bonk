@@ -2159,6 +2159,74 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "give_pencil"
+    },
+    {
+      "name": "Laser",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser"
+    },
+    {
+      "name": "UFOEntityDies",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ufo_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaserGun",
+      "type": "rangeditem",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_gun"
+    },
+    {
+      "name": "UFORightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ufo_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UFO",
+      "type": "livingentity",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ufo"
     }
   ],
   "variable_elements": [
@@ -2229,6 +2297,14 @@
       ],
       "category": "player",
       "subtitle": "F   O   O   T"
+    },
+    {
+      "name": "lasershoot",
+      "files": [
+        "lasershoot"
+      ],
+      "category": "player",
+      "subtitle": "Laser Gun fires"
     }
   ],
   "language_map": {
@@ -2244,6 +2320,7 @@
       "item.bonk.pizza": "Pizza",
       "enchantment.bonk.nuked": "Nuke",
       "item.bonk.rich_milk": "Rich Milk",
+      "subtitles.lasershoot": "Laser Gun fires",
       "block.bonk.pizza_plant": "Plant Pizza",
       "item.bonk.multi_sword": "Multi Sword",
       "item.bonk.beanier_armor_chestplate": "Beanier Chestplate",
@@ -2253,9 +2330,11 @@
       "item.bonk.multi_pickaxe": "Multi Pickaxe",
       "item.bonk.multi_armor_helmet": "Multi Helmet",
       "item.bonk.bean_apple": "Bean Apple",
+      "item.bonk.laser_gun": "Laser Gun",
       "block.bonk.multi_ore": "Multi Ore",
       "enchantment.bonk.hytale": "Hytale",
       "item.bonk.xp_spawn_egg": "XP Spawn Egg",
+      "item.bonk.laser": "Laser",
       "fluid.bonk.multi_water": "Multiwater",
       "fluid.bonk.milkyounerd": "Milk",
       "subtitles.foot": "F   O   O   T",
@@ -2271,6 +2350,7 @@
       "subtitles.recroom": "Rec Room - First Impressions plays",
       "advancements.get_crashed_on.title": "Get Crashed On",
       "item.bonk.multi_armor_boots": "Multi Boots",
+      "item.bonk.ufo_spawn_egg": "UFO Spawn Egg",
       "subtitles.hytale": "HYYYYYTTTTAAAAALLLLLLEEEEEEEE",
       "item.bonk.multi_water_bucket": "Multiwater Bucket",
       "item.bonk.beanier_armor_helmet": "Beanier Helmet",
@@ -2310,6 +2390,7 @@
       "item.bonk.an_actual_milk_gun": "An Actual Milk Gun",
       "entity.bonk.ultimate_bean": "Ultimate Bean",
       "item.bonk.pencil": "Pencil",
+      "entity.bonk.ufo": "UFO",
       "item.bonk.bean_sword": "Bean Sword",
       "advancements.get_crashed_on.descr": "Run /crashserver. (The Bonk mod is not responsible for any damage while using this command)",
       "block.bonk.name_changer": "Name Changer",

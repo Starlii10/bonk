@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.bonk.client.renderer.XPRenderer;
 import net.mcreator.bonk.client.renderer.UltimateBeanRenderer;
+import net.mcreator.bonk.client.renderer.UFORenderer;
 import net.mcreator.bonk.client.renderer.NyooommmRenderer;
 import net.mcreator.bonk.client.renderer.BonkerRenderer;
 import net.mcreator.bonk.client.renderer.BonkerBuddyRenderer;
@@ -40,5 +41,7 @@ public class BonkModEntityRenderers {
 		event.registerEntityRenderer(BonkModEntities.AN_ACTUAL_MILK_GUN, ThrownItemRenderer::new);
 		event.registerEntityRenderer(BonkModEntities.ANTI_BEAN, AntiBeanRenderer::new);
 		event.registerEntityRenderer(BonkModEntities.ULTIMATE_BEAN, UltimateBeanRenderer::new);
+		event.registerEntityRenderer(BonkModEntities.LASER_GUN, ThrownItemRenderer::new);
+		event.registerEntityRenderer(BonkModEntities.UFO, UFORenderer::new);
 	}
 }

@@ -33,6 +33,8 @@ import net.mcreator.bonk.item.MinerMilkItem;
 import net.mcreator.bonk.item.MilkyounerdItem;
 import net.mcreator.bonk.item.MilkItem;
 import net.mcreator.bonk.item.MilkCoreItem;
+import net.mcreator.bonk.item.LaserItem;
+import net.mcreator.bonk.item.LaserGunItem;
 import net.mcreator.bonk.item.HammerItem;
 import net.mcreator.bonk.item.GigaMilkItem;
 import net.mcreator.bonk.item.FOOTItem;
@@ -108,6 +110,11 @@ public class BonkModItems {
 					.setRegistryName("ultimate_bean_spawn_egg"));
 	public static final Item NAME_CHANGER = register(BonkModBlocks.NAME_CHANGER, BonkModTabs.TAB_BONK_TAB);
 	public static final Item PENCIL = register(new PencilItem());
+	public static final Item LASER = register(new LaserItem());
+	public static final Item LASER_GUN = register(new LaserGunItem());
+	public static final Item UFO = register(
+			new SpawnEggItem(BonkModEntities.UFO, -16724737, -3394561, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("ufo_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
