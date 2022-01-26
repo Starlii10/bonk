@@ -18,12 +18,12 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
 		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main",
-				CubeListBuilder.create().texOffs(24, 1)
-						.addBox(-5.0F, -10.0F, -5.0F, 10.0F, 5.0F, 10.0F, new CubeDeformation(0.0F)).texOffs(0, 39)
-						.addBox(-10.0F, -5.0F, -10.0F, 20.0F, 5.0F, 20.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(48, 2)
+						.addBox(-10.0F, -20.0F, -10.0F, 20.0F, 10.0F, 20.0F, new CubeDeformation(0.0F)).texOffs(0, 78)
+						.addBox(-20.0F, -10.0F, -20.0F, 40.0F, 10.0F, 40.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 24.0F, 0.0F));
 
-		return LayerDefinition.create(meshdefinition, 64, 64);
+		return LayerDefinition.create(meshdefinition, 128, 128);
 	}
 
 	@Override

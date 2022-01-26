@@ -1,7 +1,6 @@
 {
   "item.bonk.ambush_milk": "Ambush Milk",
   "entity.bonk.anti_bean": "Anti-Bean",
-  "item.bonk.multi_armor_leggings": "Multi Leggings",
   "item.bonk.giga_milk": "Giga Milk",
   "advancements.bonk_advancements.descr": "Achievements for the Bonk Mod.",
   "gamerule.bonkDebugCommands": "Bonk Debug Commands",
@@ -18,7 +17,6 @@
   "item.bonk.milk_core": "Milk Core",
   "item.bonk.beany_milk": "Beany Milk",
   "item.bonk.multi_pickaxe": "Multi Pickaxe",
-  "item.bonk.multi_armor_helmet": "Multi Helmet",
   "item.bonk.bean_apple": "Bean Apple",
   "item.bonk.laser_gun": "Laser Gun",
   "block.bonk.multi_ore": "Multi Ore",
@@ -39,7 +37,6 @@
   "item.bonk.multi_hoe": "Multi Hoe",
   "subtitles.recroom": "Rec Room - First Impressions plays",
   "advancements.get_crashed_on.title": "Get Crashed On",
-  "item.bonk.multi_armor_boots": "Multi Boots",
   "item.bonk.ufo_spawn_egg": "UFO Spawn Egg",
   "subtitles.hytale": "HYYYYYTTTTAAAAALLLLLLEEEEEEEE",
   "item.bonk.multi_water_bucket": "Multiwater Bucket",
@@ -89,7 +86,6 @@
   "item.bonk.miner_milk": "Miner Milk",
   "biome.bonk.beanwjijajnfjan": "BEAN",
   "item.minecraft.potion.effect.rec_buff_potion": "Potion of Rec-buff",
-  "item.bonk.multi_armor_chestplate": "Multi Chestplate",
   "advancements.ender_milk.title": "Ender Milk",
   "entity.bonk.nyooommm": "Nyooommm"
 }

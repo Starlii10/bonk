@@ -28,7 +28,6 @@ import net.mcreator.bonk.item.MultiPickaxeItem;
 import net.mcreator.bonk.item.MultiItem;
 import net.mcreator.bonk.item.MultiHoeItem;
 import net.mcreator.bonk.item.MultiAxeItem;
-import net.mcreator.bonk.item.MultiArmorItem;
 import net.mcreator.bonk.item.MinerMilkItem;
 import net.mcreator.bonk.item.MilkyounerdItem;
 import net.mcreator.bonk.item.MilkItem;
@@ -81,10 +80,6 @@ public class BonkModItems {
 	public static final Item MULTI_SWORD = register(new MultiSwordItem());
 	public static final Item MULTI_SHOVEL = register(new MultiShovelItem());
 	public static final Item MULTI_HOE = register(new MultiHoeItem());
-	public static final Item MULTI_ARMOR_HELMET = register(new MultiArmorItem.Helmet());
-	public static final Item MULTI_ARMOR_CHESTPLATE = register(new MultiArmorItem.Chestplate());
-	public static final Item MULTI_ARMOR_LEGGINGS = register(new MultiArmorItem.Leggings());
-	public static final Item MULTI_ARMOR_BOOTS = register(new MultiArmorItem.Boots());
 	public static final Item MULTIBLOCK = register(BonkModBlocks.MULTIBLOCK, BonkModTabs.TAB_BONK_TAB);
 	public static final Item GIGA_MILK = register(new GigaMilkItem());
 	public static final Item BEANY_MILK = register(new BeanyMilkItem());
