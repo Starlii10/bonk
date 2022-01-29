@@ -45,7 +45,7 @@ public class LapisCommand {
 			index[0]++;
 		});
 
-		LapisCommandExecutedProcedure.execute(entity);
+		LapisCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

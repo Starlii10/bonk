@@ -45,7 +45,7 @@ public class WoodCommand {
 			index[0]++;
 		});
 
-		WoodCommandExecutedProcedure.execute(entity);
+		WoodCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

@@ -45,7 +45,7 @@ public class NukeCommand {
 			index[0]++;
 		});
 
-		NukeCommandExecutedProcedure.execute(entity);
+		NukeCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

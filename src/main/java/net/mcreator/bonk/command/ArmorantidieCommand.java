@@ -45,7 +45,7 @@ public class ArmorantidieCommand {
 			index[0]++;
 		});
 
-		ArmorantidieCommandExecutedProcedure.execute(entity);
+		ArmorantidieCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

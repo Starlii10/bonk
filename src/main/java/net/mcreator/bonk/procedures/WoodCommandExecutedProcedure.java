@@ -1,16 +1,30 @@
 package net.mcreator.bonk.procedures;
 
+import net.minecraftforge.items.ItemHandlerHelper;
+
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.TextComponent;
+
+import net.mcreator.bonk.init.BonkModGameRules;
 
 public class WoodCommandExecutedProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		{
-			Entity _ent = entity;
-			if (!_ent.level.isClientSide() && _ent.getServer() != null)
-				_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-						"give @s minecraft:oak_log 64");
+		if (world.getLevelData().getGameRules().getBoolean(BonkModGameRules.BONKDEBUGCOMMANDS)) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(Blocks.OAK_LOG);
+				_setstack.setCount(64);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+		} else {
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(new TextComponent("Bonk Gameplay Commands is disabled. Please enable them to use this command."),
+						(false));
 		}
 	}
 }

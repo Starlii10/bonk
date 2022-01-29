@@ -25,6 +25,7 @@ import net.mcreator.bonk.item.MultiWaterItem;
 import net.mcreator.bonk.item.MultiSwordItem;
 import net.mcreator.bonk.item.MultiShovelItem;
 import net.mcreator.bonk.item.MultiPickaxeItem;
+import net.mcreator.bonk.item.MultiPickItem;
 import net.mcreator.bonk.item.MultiItem;
 import net.mcreator.bonk.item.MultiHoeItem;
 import net.mcreator.bonk.item.MultiAxeItem;
@@ -112,6 +113,7 @@ public class BonkModItems {
 			new SpawnEggItem(BonkModEntities.UFO, -16724737, -3394561, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("ufo_spawn_egg"));
 	public static final Item BONKING_BAT = register(new BonkingBatItem());
+	public static final Item MULTI_PICK = register(new MultiPickItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

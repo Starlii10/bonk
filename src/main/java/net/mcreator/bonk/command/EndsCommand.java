@@ -45,7 +45,7 @@ public class EndsCommand {
 			index[0]++;
 		});
 
-		EndCommandExecutedProcedure.execute(entity);
+		EndCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

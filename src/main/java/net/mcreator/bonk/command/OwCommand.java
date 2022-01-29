@@ -44,7 +44,7 @@ public class OwCommand {
 			index[0]++;
 		});
 
-		OwCommandExecutedProcedure.execute(entity);
+		OwCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

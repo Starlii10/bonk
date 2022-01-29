@@ -45,7 +45,7 @@ public class DimensionCommand {
 			index[0]++;
 		});
 
-		DimensionCommandExecutedProcedure.execute(entity, cmdparams);
+		DimensionCommandExecutedProcedure.execute(world, entity, cmdparams);
 		return 0;
 	}
 }

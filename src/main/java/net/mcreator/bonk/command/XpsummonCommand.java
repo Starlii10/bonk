@@ -45,7 +45,7 @@ public class XpsummonCommand {
 			index[0]++;
 		});
 
-		XpsummonCommandExecutedProcedure.execute(world, x, y, z);
+		XpsummonCommandExecutedProcedure.execute(world, x, y, z, entity);
 		return 0;
 	}
 }

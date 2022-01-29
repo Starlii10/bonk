@@ -76,7 +76,7 @@ public class BeanyMilkEntity extends AbstractArrow implements ItemSupplier {
 		Entity imediatesourceentity = this;
 		if (this.inGround) {
 
-			BeansCommandExecutedProcedure.execute(world, x, y, z);
+			BeansCommandExecutedProcedure.execute(world, x, y, z, entity);
 			this.discard();
 		}
 	}

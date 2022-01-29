@@ -78,6 +78,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -164,6 +168,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -346,6 +354,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -452,6 +464,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -501,6 +517,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -996,6 +1016,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1280,6 +1304,10 @@
           {
             "name": "cmdparams",
             "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1376,6 +1404,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1508,6 +1540,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1532,6 +1568,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1556,6 +1596,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -2189,6 +2233,73 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonking_bat"
+    },
+    {
+      "name": "RichMilkCraft",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_milk_craft"
+    },
+    {
+      "name": "MultiPick",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_pick"
+    },
+    {
+      "name": "MultiPickRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_pick_recipe"
+    },
+    {
+      "name": "MultiPickLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_pick_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BonkGameplayCommnads",
+      "type": "gamerule",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonkGameplayCommnads",
+      "metadata": {
+        "type": "logic"
+      }
     }
   ],
   "variable_elements": [
@@ -2295,6 +2406,7 @@
       "enchantment.bonk.hytale": "Hytale",
       "item.bonk.xp_spawn_egg": "XP Spawn Egg",
       "item.bonk.laser": "Laser",
+      "gamerule.bonkGameplayCommnads": "Bonk Gameplay Commands",
       "fluid.bonk.multi_water": "Multiwater",
       "fluid.bonk.milkyounerd": "Milk",
       "subtitles.foot": "F   O   O   T",
@@ -2313,6 +2425,7 @@
       "subtitles.hytale": "HYYYYYTTTTAAAAALLLLLLEEEEEEEE",
       "item.bonk.multi_water_bucket": "Multiwater Bucket",
       "item.bonk.beanier_armor_helmet": "Beanier Helmet",
+      "item.bonk.multi_pick": "Multi Pick",
       "item.bonk.nuke_dimension": "Nuke",
       "advancements.ender_milk.descr": "Beat the Ender Dragon with a Milk item. (Make sure to hold it while the dragon dies!)",
       "item.bonk.beanier_armor_boots": "Beanier Boots",
@@ -2320,6 +2433,7 @@
       "enchantment.bonk.anti_die": "Anti-Die",
       "item.bonk.hammer": "Hammer",
       "item.minecraft.lingering_potion.effect.rec_buff_potion": "Lingering Potion of Rec-buff",
+      "gamerule.bonkGameplayCommnads.description": "Enables / disables commands added with the Bonk mod, like /dimension, /beans, or /antidie.",
       "block.bonk.neon_block": "Neon Block",
       "gamerule.bonkDebugCommands.description": "Enables / disables /debugbonk based commands.",
       "itemGroup.tabbonk_tab": "Bonk Tab",

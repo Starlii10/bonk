@@ -45,7 +45,7 @@ public class NethercommandCommand {
 			index[0]++;
 		});
 
-		NetherCommandExecutedProcedure.execute(entity);
+		NetherCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

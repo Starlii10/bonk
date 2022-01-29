@@ -45,7 +45,7 @@ public class NyoommCommand {
 			index[0]++;
 		});
 
-		NyoommCommandExecutedProcedure.execute(world, x, y, z);
+		NyoommCommandExecutedProcedure.execute(world, x, y, z, entity);
 		return 0;
 	}
 }

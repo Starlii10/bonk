@@ -45,7 +45,7 @@ public class BeansCommand {
 			index[0]++;
 		});
 
-		BeansCommandExecutedProcedure.execute(world, x, y, z);
+		BeansCommandExecutedProcedure.execute(world, x, y, z, entity);
 		return 0;
 	}
 }
