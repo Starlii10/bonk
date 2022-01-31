@@ -15,6 +15,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.mcreator.bonk.world.inventory.NameChangerGUIMenu;
 import net.mcreator.bonk.world.inventory.MultimenuMenu;
 import net.mcreator.bonk.world.inventory.MilkContainerGUIMenu;
+import net.mcreator.bonk.world.inventory.ItemSyncerGUIMenu;
 import net.mcreator.bonk.world.inventory.AskToSetSpawnDimensionMenu;
 
 import java.util.List;
@@ -30,6 +31,8 @@ public class BonkModMenus {
 			(id, inv, extraData) -> new AskToSetSpawnDimensionMenu(id, inv, extraData));
 	public static final MenuType<NameChangerGUIMenu> NAME_CHANGER_GUI = register("name_changer_gui",
 			(id, inv, extraData) -> new NameChangerGUIMenu(id, inv, extraData));
+	public static final MenuType<ItemSyncerGUIMenu> ITEM_SYNCER_GUI = register("item_syncer_gui",
+			(id, inv, extraData) -> new ItemSyncerGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

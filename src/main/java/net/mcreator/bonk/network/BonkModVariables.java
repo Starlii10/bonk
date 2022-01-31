@@ -95,6 +95,8 @@ public class BonkModVariables {
 		public static final String DATA_NAME = "bonk_mapvars";
 		public String spawndimension = "\"\"";
 		public String isdamachecked = "\"\"";
+		public ItemStack iteminmainhand = ItemStack.EMPTY;
+		public double amountitemsynced = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -105,12 +107,16 @@ public class BonkModVariables {
 		public void read(CompoundTag nbt) {
 			spawndimension = nbt.getString("spawndimension");
 			isdamachecked = nbt.getString("isdamachecked");
+			iteminmainhand = ItemStack.of(nbt.getCompound("iteminmainhand"));
+			amountitemsynced = nbt.getDouble("amountitemsynced");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putString("spawndimension", spawndimension);
 			nbt.putString("isdamachecked", isdamachecked);
+			nbt.put("iteminmainhand", iteminmainhand.save(new CompoundTag()));
+			nbt.putDouble("amountitemsynced", amountitemsynced);
 			return nbt;
 		}
 

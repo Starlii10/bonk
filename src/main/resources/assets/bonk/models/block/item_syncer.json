@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bonk:blocks/itemsyncer",
+    "up": "bonk:blocks/itemsyncer",
+    "north": "bonk:blocks/itemsyncer",
+    "east": "bonk:blocks/itemsyncer",
+    "south": "bonk:blocks/itemsyncer",
+    "west": "bonk:blocks/itemsyncer",
+    "particle": "bonk:blocks/itemsyncer"
+  }
+}

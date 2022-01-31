@@ -19,6 +19,7 @@ import net.mcreator.bonk.block.MultiblockBlock;
 import net.mcreator.bonk.block.MultiWaterBlock;
 import net.mcreator.bonk.block.MultiOreBlock;
 import net.mcreator.bonk.block.MilkyounerdBlock;
+import net.mcreator.bonk.block.ItemSyncerBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ public class BonkModBlocks {
 	public static final Block MULTIBLOCK = register(new MultiblockBlock());
 	public static final Block MILKYOUNERD = register(new MilkyounerdBlock());
 	public static final Block NAME_CHANGER = register(new NameChangerBlock());
+	public static final Block ITEM_SYNCER = register(new ItemSyncerBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

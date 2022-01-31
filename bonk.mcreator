@@ -2114,6 +2114,10 @@
           {
             "name": "guistate",
             "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -2130,6 +2134,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -2201,22 +2209,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "laser_gun"
-    },
-    {
-      "name": "UFORightClickedOnEntity",
-      "type": "procedure",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ufo_right_clicked_on_entity",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "UFO",
@@ -2300,6 +2292,86 @@
       "metadata": {
         "type": "logic"
       }
+    },
+    {
+      "name": "TagUFO",
+      "type": "tag",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tag_ufo"
+    },
+    {
+      "name": "ShootAsUFO",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shoot_as_ufo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemSyncerGUI",
+      "type": "gui",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_syncer_gui"
+    },
+    {
+      "name": "ItemSyncer",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_syncer"
+    },
+    {
+      "name": "SyncItem",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sync_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SyncItem2",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sync_item_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2320,6 +2392,18 @@
       "type": "itemstack",
       "scope": "global",
       "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "iteminmainhand",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "amountitemsynced",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -2453,6 +2537,7 @@
       "entity.bonk.xp": "XP",
       "item.bonk.nyooommm_spawn_egg": "Nyooommm Spawn Egg",
       "item.bonk.multi_axe": "Multi Axe",
+      "block.bonk.item_syncer": "Item Syncer",
       "block.bonk.milkyounerd": "Milk",
       "subtitles.bonk": "BONK",
       "block.bonk.multiblock": "Multiblock",

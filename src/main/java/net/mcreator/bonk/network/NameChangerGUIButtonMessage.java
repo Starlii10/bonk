@@ -65,7 +65,7 @@ public class NameChangerGUIButtonMessage {
 			return;
 		if (buttonID == 1) {
 
-			SetItemNameProcedure.execute(guistate);
+			SetItemNameProcedure.execute(world, guistate);
 		}
 		if (buttonID == 2) {
 

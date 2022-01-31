@@ -34,7 +34,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.bonk.procedures.UFORightClickedOnEntityProcedure;
 import net.mcreator.bonk.procedures.UFOEntityDiesProcedure;
 import net.mcreator.bonk.init.BonkModEntities;
 
@@ -119,13 +118,6 @@ public class UFOEntity extends Monster {
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-		Level world = this.level;
-
-		UFORightClickedOnEntityProcedure.execute(entity);
 		return retval;
 	}
 

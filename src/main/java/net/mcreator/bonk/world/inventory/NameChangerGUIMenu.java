@@ -41,7 +41,7 @@ public class NameChangerGUIMenu extends AbstractContainerMenu implements Supplie
 			this.z = pos.getZ();
 		}
 
-		NameChangerGUIThisGUIIsOpenedProcedure.execute(entity);
+		NameChangerGUIThisGUIIsOpenedProcedure.execute(world, entity);
 	}
 
 	@Override

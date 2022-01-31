@@ -114,6 +114,7 @@ public class BonkModItems {
 					.setRegistryName("ufo_spawn_egg"));
 	public static final Item BONKING_BAT = register(new BonkingBatItem());
 	public static final Item MULTI_PICK = register(new MultiPickItem());
+	public static final Item ITEM_SYNCER = register(BonkModBlocks.ITEM_SYNCER, BonkModTabs.TAB_BONK_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

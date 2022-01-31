@@ -3,9 +3,11 @@ package net.mcreator.bonk.procedures;
 import net.minecraftforge.fmllegacy.network.NetworkHooks;
 
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerPlayer;
@@ -17,6 +19,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.bonk.world.inventory.NameChangerGUIMenu;
 import net.mcreator.bonk.world.inventory.MultimenuMenu;
 import net.mcreator.bonk.world.inventory.MilkContainerGUIMenu;
+import net.mcreator.bonk.world.inventory.ItemSyncerGUIMenu;
 import net.mcreator.bonk.world.inventory.AskToSetSpawnDimensionMenu;
 import net.mcreator.bonk.network.BonkModVariables;
 import net.mcreator.bonk.init.BonkModGameRules;
@@ -38,6 +41,37 @@ public class DebugCommandExecutedProcedure {
 					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("isdamachecked")) {
 						BonkModVariables.MapVariables.get(world).isdamachecked = cmdparams.containsKey("3") ? cmdparams.get("3").toString() : "";
 						BonkModVariables.MapVariables.get(world).syncData(world);
+					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("synceditem")) {
+						if (!(cmdparams.containsKey("3") ? cmdparams.get("3").toString() : "").equals("")) {
+							if (entity instanceof Player _player && !_player.level.isClientSide())
+								_player.displayClientMessage(new TextComponent(
+										"This variable does not support text input, and needs an item. Please hold the tem you would like to set to this variable, and run /debugbonk variable set (variable name)."),
+										(false));
+						} else {
+							BonkModVariables.synceditem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+						}
+					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("iteminmainhand")) {
+						if (!(cmdparams.containsKey("3") ? cmdparams.get("3").toString() : "").equals("")) {
+							if (entity instanceof Player _player && !_player.level.isClientSide())
+								_player.displayClientMessage(new TextComponent(
+										"This variable does not support text input, and needs an item. Please hold the tem you would like to set to this variable, and run /debugbonk variable set (variable name)."),
+										(false));
+						} else {
+							BonkModVariables.MapVariables.get(
+									world).iteminmainhand = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+							BonkModVariables.MapVariables.get(world).syncData(world);
+						}
+					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("amountitemsynced")) {
+						BonkModVariables.MapVariables.get(world).amountitemsynced = new Object() {
+							double convert(String s) {
+								try {
+									return Double.parseDouble(s.trim());
+								} catch (Exception e) {
+								}
+								return 0;
+							}
+						}.convert(cmdparams.containsKey("3") ? cmdparams.get("3").toString() : "");
+						BonkModVariables.MapVariables.get(world).syncData(world);
 					} else {
 						if (entity instanceof Player _player && !_player.level.isClientSide())
 							_player.displayClientMessage(new TextComponent("Please specify a variable. Use /debugbonk help if you need help."),
@@ -55,6 +89,23 @@ public class DebugCommandExecutedProcedure {
 							_player.displayClientMessage(
 									new TextComponent(
 											("The variable isdamachecked is set to " + BonkModVariables.MapVariables.get(world).isdamachecked)),
+									(false));
+					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("synceditem")) {
+						if (entity instanceof Player _player && !_player.level.isClientSide())
+							_player.displayClientMessage(new TextComponent(
+									("The variable synceditem is set to an item named" + (BonkModVariables.synceditem).getDisplayName().getString()
+											+ ". Please check the exact item using a GUI that can see it (like the Item Syncer's).")),
+									(false));
+					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("iteminmainhand")) {
+						if (entity instanceof Player _player && !_player.level.isClientSide())
+							_player.displayClientMessage(new TextComponent(("The variable iteminmainhand is set to an item named"
+									+ (BonkModVariables.MapVariables.get(world).iteminmainhand).getDisplayName().getString()
+									+ ". Please check the exact item using a GUI that can see it (like the Item Syncer's).")), (false));
+					} else if ((cmdparams.containsKey("2") ? cmdparams.get("2").toString() : "").equals("amountitemsynced")) {
+						if (entity instanceof Player _player && !_player.level.isClientSide())
+							_player.displayClientMessage(
+									new TextComponent(
+											("The variable amountitemsynced is set to " + BonkModVariables.MapVariables.get(world).amountitemsynced)),
 									(false));
 					} else {
 						if (entity instanceof Player _player && !_player.level.isClientSide())
@@ -158,6 +209,23 @@ public class DebugCommandExecutedProcedure {
 								@Override
 								public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
 									return new NameChangerGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+								}
+							}, _bpos);
+						}
+					}
+				} else if ((cmdparams.containsKey("1") ? cmdparams.get("1").toString() : "").equals("ItemSyncerGUI")) {
+					{
+						if (entity instanceof ServerPlayer _ent) {
+							BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);
+							NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
+								@Override
+								public Component getDisplayName() {
+									return new TextComponent("ItemSyncerGUI");
+								}
+
+								@Override
+								public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+									return new ItemSyncerGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 								}
 							}, _bpos);
 						}
