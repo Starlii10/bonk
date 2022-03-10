@@ -1,0 +1,104 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "GUIs",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "GUIs",
+          "x": 206,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Multimenu",
+          "onClick": {
+            "name": "OpenMultimenu"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Multimenu",
+          "x": 179,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "AskToSetSpawnDimension",
+          "onClick": {
+            "name": "SpawnDimensionSetToOW"
+          },
+          "width": 140,
+          "height": 20,
+          "name": "AskToSetSpawnDimension",
+          "x": 260,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Note: Does not work if isdamachecked is true",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Note: Does not work if isdamachecked is true",
+          "x": 17,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NameChangerGUI",
+          "onClick": {
+            "name": "OpenNameChangerGUI"
+          },
+          "width": 98,
+          "height": 20,
+          "name": "NameChangerGUI",
+          "x": 170,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to Debugger",
+          "onClick": {
+            "name": "BackToDebugger"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Back to Debugger",
+          "x": 161,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

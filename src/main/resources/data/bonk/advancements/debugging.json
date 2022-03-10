@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "bonk:debugger"
+    },
+    "title": {
+      "translate": "advancements.debugging.title"
+    },
+    "description": {
+      "translate": "advancements.debugging.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "debugging": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "bonk:bonk_advancements"
+}

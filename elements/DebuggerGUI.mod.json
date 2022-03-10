@@ -1,0 +1,188 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Debug Options",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Debug Options",
+          "x": 186,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bonk version 1.0",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Bonk version 1.0",
+          "x": 325,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Variables",
+          "onClick": {
+            "name": "OpenVariables"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Variables",
+          "x": 73,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "GUIs",
+          "onClick": {
+            "name": "OpenGUIs"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "GUIs",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Help",
+          "onClick": {
+            "name": "OpenHelp"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Help",
+          "x": 235,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Entities",
+          "onClick": {
+            "name": "OpenComingSoon"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Entities",
+          "x": 298,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Advancements",
+          "onClick": {
+            "name": "OpenComingSoon"
+          },
+          "width": 88,
+          "height": 20,
+          "name": "Advancements",
+          "x": 55,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "About",
+          "onClick": {
+            "name": "OpenAbout"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "About",
+          "x": 348,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Items",
+          "onClick": {
+            "name": "OpenComingSoon"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Items",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Close",
+          "x": 195,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Crash",
+          "onClick": {
+            "name": "CrashCommandExecuted"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Crash",
+          "x": 231,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Other Mods",
+          "onClick": {
+            "name": "OpenOtherMods"
+          },
+          "width": 66,
+          "height": 20,
+          "name": "Other Mods",
+          "x": 298,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 18,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

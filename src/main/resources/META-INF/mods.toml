@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="bonk"
 version="1.0.0"
 displayName="Bonk"
-credits="uh"
+credits="MCreator for helping to make the mod"
 displayURL="https://github.com/WiseDragoon5374/bonk"
-authors="North_G"
+logoFile="logo.png"
+authors="North_G (WiseDragoon5374)"
 description='''
 Adds way too many dumb features and blocks.
 '''

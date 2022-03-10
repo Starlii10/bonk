@@ -1,4 +1,4 @@
-// Made with Blockbench 4.1.3
+// Made with Blockbench 4.1.4
 // Exported for Minecraft version 1.17 with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
@@ -18,23 +18,24 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
 		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main",
-				CubeListBuilder.create().texOffs(48, 2)
-						.addBox(-10.0F, -20.0F, -10.0F, 20.0F, 10.0F, 20.0F, new CubeDeformation(0.0F)).texOffs(0, 78)
-						.addBox(-20.0F, -10.0F, -20.0F, 40.0F, 10.0F, 40.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(34, 163)
+						.addBox(-30.0F, -1.0F, -15.0F, 60.0F, 1.0F, 30.0F, new CubeDeformation(0.0F)).texOffs(68, 101)
+						.addBox(-30.0F, -20.0F, -15.0F, 60.0F, 20.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 235)
+						.addBox(-30.0F, -20.0F, 14.0F, 60.0F, 20.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(113, 77)
+						.addBox(29.0F, -20.0F, -15.0F, 1.0F, 20.0F, 30.0F, new CubeDeformation(0.0F)).texOffs(185, 29)
+						.addBox(-31.0F, -20.0F, -15.0F, 1.0F, 20.0F, 30.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 24.0F, 0.0F));
 
-		return LayerDefinition.create(meshdefinition, 128, 128);
-	}
-
-	@Override
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
-			float headPitch) {
-
+		return LayerDefinition.create(meshdefinition, 256, 256);
 	}
 
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay,
 			float red, float green, float blue, float alpha) {
 		bb_main.render(poseStack, buffer, packedLight, packedOverlay);
+	}
+
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
+			float headPitch) {
 	}
 }

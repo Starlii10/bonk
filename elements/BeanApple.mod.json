@@ -21,7 +21,7 @@
       "value": ""
     },
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {

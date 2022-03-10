@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "This page hasn't been implemented. Sorry!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This page hasn't been implemented. Sorry!",
+          "x": 114,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to Debugger",
+          "onClick": {
+            "name": "BackToDebugger"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Back to Debugger",
+          "x": 159,
+          "y": 171
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 15,
+      "ox": 11,
+      "oy": 11,
+      "snapOnGrid": true
+    }
+  }
+}

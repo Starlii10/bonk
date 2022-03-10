@@ -1,0 +1,105 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Boom",
+    "groundBlock": {
+      "value": "CUSTOM:E"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:E"
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 20,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 16,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "CUSTOM:E"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:E"
+    },
+    "treeVines": {
+      "value": "CUSTOM:E"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:E"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnSwampHut": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "WARM",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "STANDARD",
+    "defaultFeatures": [
+      "AmethystGeodes",
+      "Bamboo",
+      "BerryBushes",
+      "Caves",
+      "DeadBushes",
+      "DesertFeatures",
+      "Dripstone",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "Fossils",
+      "FrozenTopLayer",
+      "Lakes",
+      "Ores",
+      "PlainsTallGrass"
+    ],
+    "spawnEntries": []
+  }
+}

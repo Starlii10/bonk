@@ -1,0 +1,111 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to Debugger",
+          "onClick": {
+            "name": "BackToDebugger"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Back to Debugger",
+          "x": 159,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Other Mods",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Other Mods",
+          "x": 186,
+          "y": 29
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rainbow-bucket.png",
+          "use1Xscale": false,
+          "name": "rainbow-bucket.png",
+          "x": 42,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "More Color",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "More Color",
+          "x": 24,
+          "y": 29
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Adds a lot of colorful stairs, slabs, and new recipes to make",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Adds a lot of colorful stairs, slabs, and new recipes to make",
+          "x": 78,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "building just a little bit brighter.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "building just a little bit brighter.",
+          "x": 78,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "GitHub: https://github.com/WiseDragoon5374/more-color",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "GitHub: https://github.com/WiseDragoon5374/more-color",
+          "x": 42,
+          "y": 81
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 15,
+      "ox": 11,
+      "oy": 11,
+      "snapOnGrid": true
+    }
+  }
+}

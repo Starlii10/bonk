@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bonk:blocks/e",
+    "up": "bonk:blocks/e",
+    "north": "bonk:blocks/e",
+    "east": "bonk:blocks/e",
+    "south": "bonk:blocks/e",
+    "west": "bonk:blocks/e",
+    "particle": "bonk:blocks/e"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Variables",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Variables",
+          "x": 188,
+          "y": 25
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "spawndimension: <VAR:spawndimension>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "spawndimension: <VAR:spawndimension>",
+          "x": 125,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "isdamachecked: <VAR:isdamachecked>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "isdamachecked: <VAR:isdamachecked>",
+          "x": 125,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "NOTE: This does not show blockstate or itemstack variables.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "NOTE: This does not show blockstate or itemstack variables.",
+          "x": 53,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Use other GUIs to display those.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Use other GUIs to display those.",
+          "x": 128,
+          "y": 200
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to Debugger",
+          "onClick": {
+            "name": "BackToDebugger"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Back to Debugger",
+          "x": 161,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

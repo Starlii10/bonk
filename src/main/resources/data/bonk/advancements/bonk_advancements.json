@@ -17,13 +17,19 @@
   },
   "criteria": {
     "bonk_advancements": {
-      "trigger": "minecraft:placed_block",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
-          "items": [
-            "bonk:multiblock"
-          ]
-        }
+        "items": [
+          {
+            "items": [
+              "bonk:multiblock"
+            ],
+            "count": {
+              "min": 1,
+              "max": 32767
+            }
+          }
+        ]
       }
     }
   },

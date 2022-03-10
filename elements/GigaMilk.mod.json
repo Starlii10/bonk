@@ -30,13 +30,13 @@
     "bulletPower": 1.0,
     "bulletDamage": 5.0,
     "bulletKnockback": 5,
-    "bulletParticles": false,
+    "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:MultiWater"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": "",
+    "customBulletModelTexture": "recroom.png",
     "onBulletHitsBlock": {
       "name": "GigaMilkProjectileHitsBlock"
     }

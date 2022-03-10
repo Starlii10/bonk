@@ -1,0 +1,111 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bonkicon100x.png",
+          "use1Xscale": true,
+          "name": "bonkicon100x.png",
+          "x": 126,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bonk Mod version 1.0",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Bonk Mod version 1.0",
+          "x": 185,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Credits:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Credits:",
+          "x": 188,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Developer: WiseDragoon5374",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Developer: WiseDragoon5374",
+          "x": 144,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Suggestions by the Wise Mods Discord Community",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Suggestions by the Wise Mods Discord Community",
+          "x": 99,
+          "y": 117
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This mod was made with MCreator - mcreator.net/about",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This mod was made with MCreator - mcreator.net/about",
+          "x": 75,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to Debugger",
+          "onClick": {
+            "name": "BackToDebugger"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Back to Debugger",
+          "x": 155,
+          "y": 181
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
