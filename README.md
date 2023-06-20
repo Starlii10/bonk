@@ -1,14 +1,2 @@
-# Bonk Mod
-Minecraft mod adding too many dumb features and blocks.
-
-Made in MCreator - https://mcreator.net
-
-Features:
-- Custom mobs, like the Bean and the Bonker
-- Items with potential to crash the game
-- Enchantments that are, well, questionable
-- Commands galore
-- Find the eight milks and the core to craft the ultimate milk...
-- And more!
-
-NOTE: This is a Forge mod for 1.17.1
+# Bonk has been abandoned.
+I no longer have the time nor the motivation to continue working on this mod. The mod will still be available and the repository will still be public, but no updates will come for newer versions of Minecraft. I'm deeply sorry, and I hope to resume mod making soon, with new mods that are (hopefully) better than this one.
